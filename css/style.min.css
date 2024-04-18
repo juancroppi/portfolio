@@ -591,6 +591,104 @@ section {
 /*=====  End of FEATURES  ======*/
 
 
+/*=============================
+=            TESTI            =
+=============================*/
+
+.testi-img img {
+    height: 60px;
+    width: 60px !important;
+    border-radius: 50%;
+    display: inline-block !important;
+}
+
+.testi-details {
+    text-align: left;
+}
+
+.testi-text {
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testi-icon {
+    color: #ff005A;
+}
+
+.testi-content {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.testi-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.owl-dot span {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 204, 0.3);
+    text-indent: -999em;
+    cursor: pointer;
+    position: absolute;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+    -webkit-transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.owl-dot.active>span {
+    background-color: transparent;
+    box-shadow: 0 0 0 2px #ff005A;
+}
+
+.footer-des {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    left: 0;
+    right: 0;
+    clear: both;
+    padding: 0;
+    list-style: none;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.heading-section {
+    position: relative;
+}
+
+
+/*=====  End of TESTI  ======*/
+
+
 /*=================================
 =            PORTFOLIO            =
 =================================*/
@@ -866,4 +964,8 @@ section {
 
 .justificado {
     text-align: justify;
+}
+
+.alineado-izquierda {
+    text-align: left;
 }
